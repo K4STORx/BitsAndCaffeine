@@ -1,9 +1,23 @@
 body{
-    background-color: #1b1b1b;
     text-align: center;
     font-family: 'Silkscreen', cursive;
+    height: 100%;
+    margin: 0;
+    background: url(images/podcoverNEW.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: COVER;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 27, 27, 0.75);
+  }
 
 .fa-brands{
     font-size: 48px;
@@ -12,19 +26,13 @@ body{
 }
 
 .fa-apple:hover{
-    color: green;
+    color: purple;
 }
 
 .fa-spotify:hover{
     color: purple;
 }
 .fa-youtube:hover{
-    color: green;
-}
-.fa-google:hover{
-    color: purple;
-}
-.fa-amazon:hover{
     color: green;
 }
 
@@ -47,21 +55,16 @@ body{
 }
 
 h2{
-    margin-bottom: -15px;
-    margin-top: 15px;
-    font-size: xx-large;
- }
- 
- h4{
-     padding-top: 10px;
-     font-family: 'Varela Round', sans-serif;
+    margin-bottom: -5px;
+    margin-top: -5px;
+    font-size: 20px;
  }
  
 
 .wbackground{
-    height: 680px;
+    height: 510px;
     width: 400px;
-    background: white;
+    background: whitesmoke;
 
     border-radius: 25px;
     padding: 20px;
@@ -69,93 +72,12 @@ h2{
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-    -ms-transform:translate(-50%,-50%)
+    -ms-transform:translate(-50%,-50%);
     
 }
 
 h3{
     color: #1b1b1b;
     margin-bottom: 5px;
+    font-style: italic;
 }
-
-img{
-    height: auto;
-    width: 35px;
-    opacity: 0.7;
-}
-
-img:hover{
-    opacity: 1;
-}
-
-
-/*
-.tooltip{
-    position: relative;
-}
-.content1{
-    width: 100px;
-    background: #A45EE5;
-    padding: 20px;
-    position: absolute;
-    top: -65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.5s;
-}
-.content2{
-    width: 100px;
-    background: #006400;
-    padding: 20px;
-    position: absolute;
-    top: -65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.5s;
-}
-
-.content p{
-    line-height: 1.4;
-    font-family: 'Silkscreen', cursive;
-}
-
-.content1::before{
-    content: "";
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    background: #A45EE5;
-    bottom: 0;
-    left: 50%;
-    transform: rotate(45deg) translateY(50%);
-}
-
-.content2::before{
-    content: "";
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    background: #006400;
-    bottom: 0;
-    left: 50%;
-    transform: rotate(45deg) translateY(50%);
-}
-
-img:hover + .content1{
-    visibility: visible;
-    opacity: 1;
-}
-
-img:hover + .content2{
-    visibility: visible;
-    opacity: 1;
-}
-
-#containment{
-
-}
-*/
