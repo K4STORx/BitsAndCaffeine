@@ -1,13 +1,13 @@
 body{
     text-align: center;
-    font-family: 'Silkscreen', cursive;
     height: 100%;
     margin: 0;
-    background: url(images/podcoverNEW.png) no-repeat center center fixed; 
+    background: url(images/background.gif) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: COVER;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 .overlay {
@@ -20,8 +20,8 @@ body{
   }
 
 .fa-brands{
-    font-size: 48px;
-    padding: 5px;
+    font-size: 30px;
+    padding: 1px;
     color: #1b1b1b;
 }
 
@@ -49,20 +49,22 @@ body{
 }
 
 .fa-regular{
-    font-size: 48px;
-    padding: 5px;
+    font-size: 30px;
+    padding: 1px;
+    padding-top: 15px;
     color: #1b1b1b;
 }
 
 h2{
+    font-family: 'Silkscreen', cursive;
     margin-bottom: -5px;
     margin-top: -5px;
-    font-size: 20px;
+    font-size: 15px;
  }
  
 
 .wbackground{
-    height: 510px;
+    height: 850x;
     width: 400px;
     background: whitesmoke;
 
@@ -80,4 +82,27 @@ h3{
     color: #1b1b1b;
     margin-bottom: 5px;
     font-style: italic;
+}
+
+.albimg {
+    float:left;
+    border-radius: 25px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.txtalb {
+    padding-left: 20px;
+  }
+
+#rcorners2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
